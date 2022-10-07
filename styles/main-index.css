@@ -1,0 +1,15 @@
+@import url(./index/about.css);
+@import url(./index/comments.css);
+@import url(./index/course-program.css);
+@import url(./index/footer.css);
+@import url(./index/format.css);
+@import url(./index/header.css);
+@import url(./index/info.css);
+@import url(./index/what-learn.css);
+@import url(./index/main.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
