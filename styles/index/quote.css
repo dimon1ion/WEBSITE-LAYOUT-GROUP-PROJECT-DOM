@@ -1,0 +1,67 @@
+.quote{
+    border-radius: 5px;
+    background-color: #1E4681;
+    width: 65%;
+    margin-bottom: 75px;
+}
+
+.quote__text{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+.quote__text__paragraph{
+    font-family: "Roboto Slab", serif;
+    font-size: 11px;
+    line-height: 130%;
+    padding-bottom: 6px;
+}
+
+.quote__text__author{
+    align-self: flex-end;
+    font-size: 10px;
+    line-height: 130%;
+}
+
+@media screen and (min-width: 578px) {
+    .quote{
+        border-radius: 3px;
+        width: 40%;
+        margin: 0 35% 100px 25%;
+    }
+    
+    .quote__text{
+        padding: 12px 15px;
+    }
+    
+    .quote__text__paragraph{
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    
+    .quote__text__author{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .quote{
+        border-radius: 5px;
+        width: 40%;
+        margin: 0 35% 170px 25%;
+    }
+    
+    .quote__text{
+        padding: 20px 25px;
+    }
+    
+    .quote__text__paragraph{
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+    
+    .quote__text__author{
+        font-size: 20px;
+    }
+}

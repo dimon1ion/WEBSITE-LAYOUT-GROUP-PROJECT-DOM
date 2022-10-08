@@ -1,0 +1,111 @@
+.how-watch__info-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+
+.how-watch__list-item {
+  display: flex;
+  height: 1em;
+  font-size: 10px;
+  margin-right: 12px;
+  flex-wrap: nowrap;
+}
+
+.how-watch__list-item > img {
+  margin-right: 8px;
+}
+
+.how-watch__content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.how-watch__content__title {
+  font-size: 80px;
+  margin-top: 44px;
+  font-family: "Roboto Slab", serif;
+  font-size: 37px;
+  line-height: 101.4%;
+}
+
+.how-watch__content__text {
+  margin-top: 17px;
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.how-watch__content__right {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  height: 100%;
+  padding-right: 0;
+}
+
+.how-watch__content__right__human {
+  margin-top: 18px;
+  max-width: 141px;
+  height: auto;
+}
+
+.how-watch__content__right__oval {
+  border-radius: 60%;
+  height: 20px;
+  width: 90%;
+  align-self: flex-end;
+  z-index: -1;
+}
+
+@media screen and (min-width: 578px) {
+  .how-watch__list-item {
+    font-size: 12px;
+    margin-right: 14px;
+  }
+  .how-watch__content {
+    flex-direction: row;
+  }
+  .how-watch__content__title {
+    font-size: 46px;
+  }
+  .how-watch__content__text {
+    font-size: 12px;
+  }
+  .how-watch__content__right {
+    padding-right: 10%;
+    align-self: flex-start;
+  }
+  .how-watch__content__right__human {
+    max-width: 176px;
+  }
+  .how-watch__content__right__oval {
+    height: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .how-watch__list-item {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .how-watch__content {
+    flex-direction: row;
+  }
+  .how-watch__content__title {
+    font-size: 80px;
+  }
+  .how-watch__content__text {
+    font-size: 20px;
+  }
+  .how-watch__content__right {
+    padding-right: 10%;
+    align-self: flex-start;
+  }
+  .how-watch__content__right__human {
+    max-width: 304px;
+  }
+  .how-watch__content__right__oval {
+    height: 42px;
+  }
+}
