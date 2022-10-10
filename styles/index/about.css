@@ -1,16 +1,100 @@
-.about {
-    margin: 0%;
-    padding: 0%;
-}
+.about {}
 
 .about_course {
-    margin-top: 173.36px;
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
+    font-family: "Roboto Slab", serif;
     font-size: 55px;
+    margin-bottom: 55px;
+    line-height: 101.4%;
+}
+
+.about_course__group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 72px;
 }
 
 .text_about_course {
-    margin-top: 60px;
+    font-size: 24px;
+    line-height: 150%;
+    padding-right: 165px;
+}
+
+.about_course__group__image-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 51px;
+}
+
+.about_png1 {
+    margin-top: 24px;
+    width: 314px;
+    height: 315px;
+}
+
+.about__oval {
+    border-radius: 60%;
+    height: 59px;
+    width: 366px;
+    /* align-self: center; */
+    z-index: -1;
+}
+
+.about2 {
+    display: flex;
+}
+
+.about2-text-group {
+    align-self: center;
+    display: flex;
+}
+
+.about2__text_about {
+    font-size: 18px;
+    line-height: 130%;
+    max-width: 150px;
+}
+
+.about2__text_about:not(:last-child) {
+    margin-right: 95px;
+}
+
+.about2__text_about__header {
+    font-size: 25px;
+}
+
+.img_about2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 132px;
+}
+
+.img_about2__img {
+    width: 232px;
+}
+
+.img_about2__oval {
+    border-radius: 60%;
+    height: 32px;
+    width: 81%;
+    margin-right: 10px;
+    z-index: -1;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 992px) {
+    .about_course {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .about_course {
+        font-size: 26px;
+        margin-bottom: 26px;
+    }
+    .about_course__group {
+        flex-direction: column;
+    }
 }
