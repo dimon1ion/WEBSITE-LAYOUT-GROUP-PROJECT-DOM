@@ -1,0 +1,16 @@
+.about {
+    margin: 0%;
+    padding: 0%;
+}
+
+.about_course {
+    margin-top: 173.36px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.text_about_course {
+    margin-top: 60px;
+}
