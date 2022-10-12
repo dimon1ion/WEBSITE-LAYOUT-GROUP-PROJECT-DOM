@@ -1,7 +1,7 @@
 .quote{
     border-radius: 5px;
     background-color: #1E4681;
-    width: 65%;
+    width: 75%;
     margin-bottom: 75px;
 }
 
@@ -28,8 +28,8 @@
 @media screen and (min-width: 578px) {
     .quote{
         border-radius: 3px;
-        width: 40%;
-        margin: 0 35% 100px 25%;
+        width: 39%;
+        margin: 0 35% 100px 26%;
     }
     
     .quote__text{
@@ -48,8 +48,8 @@
 @media screen and (min-width: 992px) {
     .quote{
         border-radius: 5px;
-        width: 40%;
-        margin: 0 35% 170px 25%;
+        width: 39%;
+        margin: 0 35% 170px 26%;
     }
     
     .quote__text{
