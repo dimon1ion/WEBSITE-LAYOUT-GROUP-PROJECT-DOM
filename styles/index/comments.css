@@ -4,6 +4,10 @@
     min-width: 780px;
 }
 
+.comments__block {
+    margin-left: 30px;
+}
+
 .comments__header {
     max-width: 100%;
 }
@@ -14,63 +18,60 @@
 
 .comments__first {
     display: block;
-    /* width: 987px; */
-    font-family: 'Roboto Slab';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
     line-height: 101.38%;
     color: #000;
+    padding-top: 91px;
 }
 
 .comments__image {
-    margin-top: 253px;
-    margin-left: 26px;
     width: 190px;
+    margin-left: 26px;
+    margin-bottom: 29px;
 }
 
 .comments__image_name {
-    width: 353px;
-    font-family: 'Roboto Slab';
+    /* width: 353px; */
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 101.38%;
-    margin-top: 293px;
-    margin-left: 246px;
+    padding-top: 47px;
 }
 
 .comments__second {
     display: block;
-    /* content: ''; */
     background-color: #fff;
-    width: 791px;
-    height: 451px;
+    max-width: 791px;
     border-radius: 20px;
-    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.4)
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.4);
+    margin-top: 71px;
 }
 
 .comments__comment {
     width: 700px;
-    height: 203px;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
     margin-top: 40px;
-    margin-left: 45px;
 }
 
 .comments__inn {
-    padding: 40px 46px 0;
+    padding: 40px 46px 33px;
+}
+
+.comments__inner_end {
+    display: flex;
 }
 
 .comments__facebook {
     width: 32px;
     height: 31px;
-    /* margin-top: 352px; */
-    margin-left: 246px;
+    margin-top: 29px;
 }
-
-.comments__girl {}
