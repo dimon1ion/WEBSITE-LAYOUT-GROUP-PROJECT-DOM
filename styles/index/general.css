@@ -1,0 +1,5 @@
+.oval{
+    position: relative;
+    background-color: #efefef;
+    transform: translateY(-50%);
+}
