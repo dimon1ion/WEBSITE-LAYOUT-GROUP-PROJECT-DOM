@@ -102,6 +102,7 @@
     }
   .course-program__title {
     font-size: 55px;
+    margin-bottom: 132px;
   }
   .course-program__cards {
     column-gap: 36px;

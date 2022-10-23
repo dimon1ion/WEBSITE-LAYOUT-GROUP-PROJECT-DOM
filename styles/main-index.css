@@ -25,7 +25,7 @@ body {
 
 .container{
   margin: 0 auto;
-  width: 90vw;
+  /* width: 90vw; */
   max-width: 1280px;
 }
 
@@ -33,15 +33,21 @@ body {
   padding-left: 36px;
 }
 
-@media screen and (min-width: 578px) {
-    :root {
-      font-size: 12px;
-    }
+@media screen and (max-width: 992px) {
+  .container{
+    max-width: 740px;
   }
+  .container_padding-default-left{
+    padding-left: 22px;
+  }
+}
 
-@media screen and (min-width: 992px) {
-  :root {
-    font-size: 24px;
+@media screen and (max-width: 578px) {
+  .container{
+    max-width: 310px;
+  }
+  .container_padding-default-left{
+    padding-left: 0;
   }
 }
 
