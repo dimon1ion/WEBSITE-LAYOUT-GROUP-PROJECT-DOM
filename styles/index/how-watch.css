@@ -1,3 +1,7 @@
+.how-watch {
+  margin-bottom: 26px;
+}
+
 .how-watch__info-list {
   display: flex;
   list-style: none;
@@ -25,7 +29,7 @@
 
 .how-watch__content__title {
   font-size: 80px;
-  margin-top: 44px;
+  margin-top: 8px;
   font-family: "Roboto Slab", serif;
   font-size: 37px;
   line-height: 101.4%;
@@ -46,7 +50,6 @@
 }
 
 .how-watch__content__right__human {
-  margin-top: 18px;
   max-width: 141px;
   height: auto;
 }
@@ -60,6 +63,9 @@
 }
 
 @media screen and (min-width: 578px) {
+  .how-watch {
+    margin-bottom: 40px;
+  }
   .how-watch__list-item {
     font-size: 12px;
     margin-right: 14px;
@@ -68,6 +74,7 @@
     flex-direction: row;
   }
   .how-watch__content__title {
+    margin-top: 8px;
     font-size: 46px;
   }
   .how-watch__content__text {
@@ -85,6 +92,9 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .how-watch {
+    margin-bottom: 68px;
+  }
   .how-watch__list-item {
     font-size: 20px;
     margin-right: 40px;
@@ -93,6 +103,7 @@
     flex-direction: row;
   }
   .how-watch__content__title {
+    margin-top: 44px;
     font-size: 80px;
   }
   .how-watch__content__text {
@@ -103,6 +114,7 @@
     align-self: flex-start;
   }
   .how-watch__content__right__human {
+    margin-top: 18px;
     max-width: 304px;
   }
   .how-watch__content__right__oval {

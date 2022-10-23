@@ -112,7 +112,7 @@
 
   .about_course__group {
     flex-direction: row;
-    margin-bottom: 72px;
+    margin-bottom: 40px;
     justify-content: space-between;
   }
 
@@ -168,7 +168,7 @@
 
   .about_course__group {
     flex-direction: column;
-    margin-bottom: 45px;
+    margin-bottom: 46px;
   }
 
   .text_about_course {

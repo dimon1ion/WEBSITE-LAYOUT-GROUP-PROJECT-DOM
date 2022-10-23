@@ -1,5 +1,5 @@
 .quote {
-    border-radius: 5px;
+    border-radius: 2.33px;
     background-color: #1E4681;
     width: 75%;
     margin-bottom: 75px;
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 578px) {
     .quote {
-        border-radius: 3px;
+        border-radius: 2.9px;
         width: 39%;
         margin: 0 35% 100px 26%;
     }

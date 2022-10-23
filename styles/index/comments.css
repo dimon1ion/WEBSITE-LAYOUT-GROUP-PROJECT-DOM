@@ -18,7 +18,7 @@
 
 .comments__first {
     display: block;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto Slab", serif;
     font-style: normal;
     font-weight: 700;
     font-size: 55px;
@@ -64,7 +64,6 @@
 } */
 
 .comments__inn {
-    width: 700px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -102,10 +101,9 @@
     }
     .comments__second {
         max-width: 458px;
-        margin-top: 71px;
+        margin-top: 42px;
     }
     .comments__inn {
-        width: 405px;
         font-size: 12px;
         line-height: 150%;
         padding: 23px 26px 0px;
@@ -139,7 +137,6 @@
         margin-top: 28px;
     }
     .comments__inn {
-        width: 226px;
         font-size: 10px;
         line-height: 150%;
         padding: 18px 21px 0;
